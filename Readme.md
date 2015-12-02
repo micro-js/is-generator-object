@@ -1,5 +1,5 @@
 
-# is-generator
+# is-generator-object
 
 [![Build status][travis-image]][travis-url]
 [![Git tag][git-image]][git-url]
@@ -10,14 +10,14 @@ Check if generator.
 
 ## Installation
 
-    $ npm install @micro-js/is-generator
+    $ npm install @micro-js/is-generator-object
 
 ## Usage
 
 ```js
-var isGenerator = require('@micro-js/is-generator')
+var isGeneratorObject = require('@micro-js/is-generator-object')
 
-isGenerator(function * () {
+isGeneratorObject(function * () {
   yield 1
 }()) // => true
 
@@ -25,7 +25,7 @@ isGenerator(function * () {
 
 ## API
 
-### isGenerator(obj)
+### isGeneratorObject(obj)
 
 - `obj` - object to test
 
@@ -35,11 +35,11 @@ isGenerator(function * () {
 
 MIT
 
-[travis-image]: https://img.shields.io/travis/micro-js/is-generator.svg?style=flat-square
-[travis-url]: https://travis-ci.org/micro-js/is-generator
-[git-image]: https://img.shields.io/github/tag/micro-js/is-generator.svg
-[git-url]: https://github.com/micro-js/is-generator
+[travis-image]: https://img.shields.io/travis/micro-js/is-generator-object.svg?style=flat-square
+[travis-url]: https://travis-ci.org/micro-js/is-generator-object
+[git-image]: https://img.shields.io/github/tag/micro-js/is-generator-object.svg
+[git-url]: https://github.com/micro-js/is-generator-object
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/is-generator.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/is-generator
+[npm-image]: https://img.shields.io/npm/v/@micro-js/is-generator-object.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@micro-js/is-generator-object

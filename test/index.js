@@ -2,7 +2,7 @@
  * Imports
  */
 
-var isGenerator = require('..')
+var isGeneratorObject = require('..')
 var test = require('tape')
 
 /**
@@ -10,36 +10,36 @@ var test = require('tape')
  */
 
 test('generator is generator', function (t) {
-  t.equal(isGenerator(function * () {}()), true)
+  t.equal(isGeneratorObject(function * () {}()), true)
   t.end()
 })
 
 test('almost generator is not generator', function (t) {
-  t.equal(isGenerator({ next: function () {} }), false)
+  t.equal(isGeneratorObject({ next: function () {} }), false)
   t.end()
 })
 
 test('no arg is not generator', function (t) {
-  t.equal(isGenerator(), false)
+  t.equal(isGeneratorObject(), false)
   t.end()
 })
 
 test('obj is not generator', function (t) {
-  t.equal(isGenerator({}), false)
+  t.equal(isGeneratorObject({}), false)
   t.end()
 })
 
 test('function is not generator', function (t) {
-  t.equal(isGenerator(function () {}), false)
+  t.equal(isGeneratorObject(function () {}), false)
   t.end()
 })
 
 test('null is not generator', function (t) {
-  t.equal(isGenerator(null), false)
+  t.equal(isGeneratorObject(null), false)
   t.end()
 })
 
 test('bool is not generator', function (t) {
-  t.equal(isGenerator(true), false)
+  t.equal(isGeneratorObject(true), false)
   t.end()
 })
