@@ -6,7 +6,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Code style][standard-image]][standard-url]
 
-Check if generator.
+Check if generator object.
 
 ## Installation
 

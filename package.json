@@ -1,6 +1,6 @@
 {
   "name": "@micro-js/is-generator-object",
-  "description": "Check if generator.",
+  "description": "Check if generator object.",
   "repository": "git://github.com/micro-js/is-generator-object.git",
   "version": "1.0.2",
   "license": "MIT",
