@@ -10,12 +10,12 @@ var test = require('tape')
  */
 
 test('generator is generator', function (t) {
-  t.equal(isGenerator(function * () {} ()), true)
+  t.equal(isGenerator(function * () {}()), true)
   t.end()
 })
 
 test('almost generator is not generator', function (t) {
-  t.equal(isGenerator({next: function () {}}), false)
+  t.equal(isGenerator({ next: function () {} }), false)
   t.end()
 })
 
