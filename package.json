@@ -1,5 +1,5 @@
 {
-  "name": "@micro-js/is-generator-object",
+  "name": "@f/is-generator-object",
   "description": "Check if generator object.",
   "repository": "git://github.com/micro-js/is-generator-object.git",
   "version": "1.1.0",

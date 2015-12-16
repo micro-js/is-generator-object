@@ -10,12 +10,12 @@ Check if generator object.
 
 ## Installation
 
-    $ npm install @micro-js/is-generator-object
+    $ npm install @f/is-generator-object
 
 ## Usage
 
 ```js
-var isGeneratorObject = require('@micro-js/is-generator-object')
+var isGeneratorObject = require('@f/is-generator-object')
 
 isGeneratorObject(function * () {
   yield 1
@@ -41,5 +41,5 @@ MIT
 [git-url]: https://github.com/micro-js/is-generator-object
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
-[npm-image]: https://img.shields.io/npm/v/@micro-js/is-generator-object.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@micro-js/is-generator-object
+[npm-image]: https://img.shields.io/npm/v/@f/is-generator-object.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@f/is-generator-object
