@@ -8,7 +8,10 @@
   "scripts": {
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@f/is-iterable": "^1.0.1",
+    "@f/is-iterator": "^1.0.0"
+  },
   "devDependencies": {
     "tape": "^4.2.2",
     "standard": "^5.4.1"
